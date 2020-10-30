@@ -1,0 +1,27 @@
+{
+	"name" : "fgsl/traits",
+	"description" : "Fgsl Traits",
+	"type" : "component",
+	"keywords" : [
+		"trait"
+	],
+	"homepage" : "https://github.com/fgsl/traits",
+	"license" : "AGPL-3.0-only",
+	"autoload" : {
+		"psr-4" : {
+			"Fgsl\\Traits\\" : "src/Fgsl/Traits"
+		}
+	},
+	"require" : {
+		"php" : ">=7.4",
+		"phpunit/phpunit" : "^8.3",
+		"laminas/laminas-db" : "^2.11",
+		"laminas/laminas-cache" : "^2.9",
+		"laminas/laminas-log" : "^2.12",
+		"laminas/laminas-permissions-rbac" : "^3.0",
+		"laminas/laminas-view" : "^2.11"
+	},
+	"config" : {
+		"secure-http" : false
+	}
+}
